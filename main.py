@@ -32,6 +32,8 @@ def main_page():
     else:
         return render_template('home_page.html')
 
+# Hello from Mr McLeod!
+
 @app.route('/signup', methods = ['POST', 'GET'] )
 def signup():
     if request.method == 'POST':
